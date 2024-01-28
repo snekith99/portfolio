@@ -4,14 +4,14 @@ import { TypeAnimation } from "react-type-animation";
 
 const IntroSection = () => {
   return (
-    <section>
-      <div className="grid grid-cols-1 lg:grid-cols-12">
-        <div className="col-span-7 place-self-center">
+    <section className="flex justify-center items-center">
+      <div className="grid grid-cols-1">
+        <div className="col-span-7 text-center">
           <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
-              Hello, I am{" "}
+              Hello, I am
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={["Snekith Karthikeyan", 1000, "", 1000]}
               wrapper="span"
