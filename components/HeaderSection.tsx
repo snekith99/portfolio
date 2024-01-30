@@ -16,12 +16,7 @@ export default function HeaderSection() {
         <header className="z-[999] relative">
             <motion.div
                 className="fixed top-0 left-1/2 h-[4.5rem] w-full 
-                rounded-none bg-black sm:top-6 sm:h-[3.25rem] sm:w-[36rem]"
-                style={{
-                    border: "2px solid",
-                    borderImage: "linear-gradient(to right, blue, green)",
-                    borderImageSlice: 1,
-                }}
+                rounded-full bg-black sm:top-6 sm:h-[3.25rem] sm:w-[36rem]"
                 initial={{ y: -100, x: "-50%", opacity: 0 }}
                 animate={{ y: 0, x: "-50%", opacity: 1 }}
             >
