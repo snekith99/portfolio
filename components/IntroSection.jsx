@@ -20,7 +20,7 @@ const IntroSection = () => {
             </span>
             <br />
             <TypeAnimation
-              sequence={["Snekith Karthikeyan", 1000, "", 1000]}
+              sequence={["Snekith Karthikeyan", 10000, "", 1000]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
