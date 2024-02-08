@@ -38,11 +38,11 @@ export default function AboutSection() {
 
       <p className="mb-9 text-[#ADB7BE] text-base sm:text-lg lg:text-xl">
         During my coursework, I have looked to acquire hands-on experience as a software engineer. 
-        I undertook a volunteering role at 
-        <span className="font-bold"> 180 Degrees Consulting - Monash as a Tech Project Consultant </span>
-        which primarily consisted of front-end development. During this role, I did an internship with
-        <span className="font-bold"> The Coles Group as a Software Test Engineer </span> 
-        which consisted of scripting automated test cases. I ventured into Consulting after these internships, at 
+        I undertook my first internship at <span className="font-bold"> The Coles Group as a Software Test Engineer </span> 
+        which consisted of scripting automated test cases. During this internship, I participated in a volunteering role at
+        <span className="font-bold"> 180 Degrees Consulting - Monash University as a Tech Project Consultant </span>
+        which primarily consisted of front-end development. 
+        I ventured into Consulting after these roles, at 
         <span className="font-bold"> Deloitte as an Oracle Vacationer, </span> 
         where I had the chance to work with Oracle&apos;s Cloud Applications.
         Currently, I am working at <span className="font-bold"> Infosys as a Software Test Engineer, </span> where I have created robust
@@ -51,8 +51,9 @@ export default function AboutSection() {
 
       <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl">
         As a fourth and final year software engineering student, I am looking to continuously learn the latest technology, and continue 
-        expanding my network with talented professionals. I have a strong passion for software development, machine learning
-        and artifical intelligence. Feel free to contact me if you&apos;re interested in my experiences, collaborations or job opportuniities.
+        expanding my network with talented professionals. I have a strong passion for 
+        <span className="font-bold"> software development, machine learning and artifical intelligence. </span>
+        Feel free to contact me if you&apos;re interested in my experiences, collaborations or job opportuniities.
         You can find my contact information in the &quot;Contact&quot; section of this portfolio.
       </p>
     </motion.section>

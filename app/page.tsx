@@ -9,11 +9,8 @@ import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col bg-[#121212] items-center p-10">
+    <main className="flex min-h-screen flex-col bg-[#121212] items-center p-32">
       <HeaderSection/>
-      <br/>
-      <br/>
-      <br/>
       <IntroSection/>
       <SectionDivider/>
       <AboutSection/>
