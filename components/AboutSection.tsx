@@ -3,7 +3,7 @@
 import React from "react";
 import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
-import { useSectionInView } from "@/lib/hooks";
+import { useSectionInView } from "@/lib/Hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
@@ -32,27 +32,28 @@ export default function About() {
         <span className="font-bold">Python, Java, JavaScript, R, SQL, C, HTML, CSS and MATLAB. </span>
         I have also had the opportunity to work with and develop applications with front-end frameworks such as
         <span className="font-bold"> React.js and Next.js. </span>
-        Alongside these skills, I have worked with software development tools such as
+        Alongside these skills, I have used software development tools such as
         <span className="font-bold"> Git, Maven, Selenium, Postman, Stibo Systems and Figma. </span>
       </p>
 
       <p className="mb-6">
-        Alongside my coursework, I have looked to acquire hands-on experience for software engineering. 
-        I undertook a 6 month internship at 
+        During my coursework, I have looked to acquire hands-on experience as a software engineer. 
+        I undertook a volunteering role at 
         <span className="font-bold"> 180 Degrees Consulting - Monash as a Tech Project Consultant </span>
-        which primarily consisted of front-end development. During this role, I also did a 6 month internship with
-        <span className="font-bold"> The Coles Group as an Associate Quality Engineer </span> 
-        which consisted of scripting automated test cases. I ventured into Consulting after these internships, as an 
-        <span className="font-bold"> Oracle Vacationer at Deloitte, </span> where I had the chance to work with Oracle's Cloud Applications.
-        Currently, I am working as a <span className="font-bold"> Technical Test Consultant at Infosys, </span> where I have created robust
+        which primarily consisted of front-end development. During this role, I did an internship with
+        <span className="font-bold"> The Coles Group as a Software Test Engineer </span> 
+        which consisted of scripting automated test cases. I ventured into Consulting after these internships, at 
+        <span className="font-bold"> Deloitte as an Oracle Vacationer, </span> 
+        where I had the chance to work with Oracle&apos;s Cloud Applications.
+        Currently, I am working at <span className="font-bold"> Infosys as a Software Test Engineer, </span> where I have created robust
         testing frameworks. 
       </p>
 
       <p className="mb-6">
         As a fourth and final year software engineering student, I am looking to continuously learn the latest technology, and continue 
         expanding my network with talented professionals. I have a strong passion for software development, machine learning
-        and artifical intelligence. Feel free to contact me if you're interested in my experiences, collaborations or job opportuniities.
-        You can find my contact information in the "Contact" section of this portfolio.
+        and artifical intelligence. Feel free to contact me if you&apos;re interested in my experiences, collaborations or job opportuniities.
+        You can find my contact information in the &quot;Contact&quot; section of this portfolio.
       </p>
     </motion.section>
   );
