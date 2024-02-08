@@ -15,7 +15,7 @@ const IntroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="col-span-7 place-self-center text-center mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+          className="col-span-7 place-self-center text-center mb-28 text-center sm:mb-0 scroll-mt-[50rem]"
           id="home"
           ref={ref}
         >
