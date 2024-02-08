@@ -1,7 +1,7 @@
 import HeaderSection from "@/components/HeaderSection";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/ActiveSectionContext";
+import ActiveSectionContextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
