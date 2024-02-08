@@ -19,7 +19,6 @@ export default function HeaderSection() {
             style={{
             border: "3px solid transparent",
             borderImage: "linear-gradient(135deg, blue, green) 1",
-            MozBorderImage: "linear-gradient(135deg, blue, green) 1",
           }}
           initial={{ y: -100, x: "-50%", opacity: 0 }}
           animate={{ y: 0, x: "-50%", opacity: 1 }}
