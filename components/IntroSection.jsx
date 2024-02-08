@@ -3,8 +3,11 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useSectionInView } from "@/lib/hooks";
 
 const IntroSection = () => {
+  const { ref } = useSectionInView("Home");
+
   return (
     <section className="justify-center items-center">
       <div className="grid grid-cols-1">
@@ -12,7 +15,9 @@ const IntroSection = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
-          className="col-span-7 place-self-center text-center sm:text-left"
+          className="col-span-7 place-self-center text-center mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+          id="home"
+          ref={ref}
         >
           <h1 className="text-white mb-4 text-4xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
