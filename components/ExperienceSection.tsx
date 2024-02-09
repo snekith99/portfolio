@@ -12,7 +12,7 @@ export default function ExperienceSection() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 text-center leading-8 sm:mb-1 scroll-mt-28 bg-gra relative"
+      className="mb-28 text-center leading-8 sm:mb-1 scroll-mt-28 relative"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
