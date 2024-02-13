@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { useSectionInView } from "@/lib/hooks";
+import { color } from "csx";
 
 const IntroSection = () => {
   const { ref } = useSectionInView("Home");
@@ -29,6 +30,7 @@ const IntroSection = () => {
               wrapper="span"
               speed={10}
               repeat={Infinity}
+              style={{ color: "white" }}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mt-5 lg:text-xl">

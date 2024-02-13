@@ -25,6 +25,7 @@ export default function ProjectsSection() {
         wrapper="span"
         speed={10}
         repeat={Infinity}
+        style={{ color: "white" }}
       />
       </div>
     </motion.section>
